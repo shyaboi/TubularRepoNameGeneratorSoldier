@@ -1,5 +1,5 @@
-repoNamePrefixArr = ['Rad', 'Dope', 'Gnarly','Sweet','Electric','Ledgendary','Hott','Cool','Nifty','Spiffy','Tubular','Dingus','すごい','Caliente','Awesome','Hype','Supa','Super','Mega','Totally','Massive','Hella']
-repoNameSuffixArr = ['Radness', 'Dopeness', 'Gnar','Sweetness','Electric','Ledgend','Hottness','Coolness','Niftyness','Spiffyness','Tubularness','Dingi','Calienteness','Awesomeness','Hypeness','Soldier','Superness','Meganess','Massiveness','Meggedon']
+repoNamePrefixArr = ['Rad', 'Dope', 'Gnarly','Sweet','Electric','Ledgendary','Hott','Cool','Nifty','Spiffy','Tubular','Dingus','すごい','Caliente','Awesome','Hype','Supa','Super','Mega','Totally','Massive','Hella','Turbo']
+repoNameSuffixArr = ['Radness', 'Dopeness', 'Gnar','Sweetness','Electric','Ledgend','Hottness','Coolness','Niftyness','Spiffyness','Tubularness','Dingi','Calienteness','Awesomeness','Hypeness','Soldier','Superness','Meganess','Massiveness','Meggedon','Turbo']
 pword = prompt("What Is the Theme Of your Project?")
 
 var namer = function(pword){
