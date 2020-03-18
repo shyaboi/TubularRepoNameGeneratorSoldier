@@ -8,3 +8,86 @@ color: #92a5de;
     font-family: 'Gruppo', cursive;
     font-family: 'Righteous', cursive;
 }
+
+input {
+    font-family: 'Gruppo', cursive;
+    font-size: xx-large;
+    height: 8%;
+    opacity: 80%;
+    position: fixed;
+    float: left;
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+#inputDiv {
+    width: 99%;
+    position: fixed;
+    float: left;
+}
+
+
+#genButton {
+    font-family: 'Gruppo', cursive;
+    margin-top: 8%;
+    float: left;
+    position: fixed;
+}
+
+
+
+.button6 {
+    font-family: 'Gruppo', cursive;
+
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#3369ff;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+    }
+    .button6:active {
+    top:0.1em;
+    }
+    @media all and (max-width:30em){
+    .button6{ 
+    display:block;
+    margin:0.4em auto;}
+    }
+
+    #copyButt {
+        font-family: 'Gruppo', cursive;
+    
+        display:inline-block;
+        padding:0.7em 1.4em;
+        margin:0 0.3em 0.3em 0;
+        border-radius:0.15em;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        text-transform:uppercase;
+        font-weight:400;
+        color:#FFFFFF;
+        background-color:#30ce72;
+        box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+        text-align:center;
+        position:relative;
+        }
+        #copyButt:active {
+        top:0.1em;
+        }
+        @media all and (max-width:30em){
+        #copyButt { 
+        display:block;
+        margin:0.4em auto;}
+        }
