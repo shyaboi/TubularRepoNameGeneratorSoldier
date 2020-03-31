@@ -21,7 +21,13 @@ repoNamePrefixArr = [
   "Totally",
   "Massive",
   "Hella",
-  "Turbo"
+  "Turbo",
+  'Supra',
+  'Sunset',
+  'Synth',
+  'Euphoric',
+
+
 ];
 repoNameSuffixArr = [
   "Radness",
@@ -44,7 +50,13 @@ repoNameSuffixArr = [
   "Meganess",
   "Massiveness",
   "Meggedon",
-  "Turbo"
+  "Turbo",
+  'Supra',
+  'Sunset',
+  'Synth',
+  'Euphoria',
+  
+
 ];
 
 // console.log(pword);
@@ -91,7 +103,7 @@ $("#genButton").click(function() {
 function myFunction() {
   var copyText = this.document.body.innerText
 //   console.log(this.document.body.innerText);
-cop = copyText.length
+cop = copyText
 console.log(cop)
 //   alert(toString(String(copyText)))
 //   // copyText.select();
