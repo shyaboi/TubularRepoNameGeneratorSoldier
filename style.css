@@ -2,8 +2,8 @@ p {
     font-size: 88px;
     text-align: center;
     color: #92a5de;
-text-shadow: 0px 0px 0 #899CD5, 1px 1px 0 #8194CD, 2px 2px 0 #788BC4, 3px 3px 0 #6F82BB, 4px 4px 0 #677AB3, 5px 5px 0 #5E71AA, 6px 6px 0 #5568A1, 7px 7px 0 #4C5F98, 8px 8px 0 #445790, 9px 9px 0 #3B4E87, 10px 10px 0 #32457E, 11px 11px 0 #2A3D76, 12px 12px 0 #21346D, 13px 13px 0 #182B64, 14px 14px 0 #0F225B, 15px 15px 0 #071A53, 16px 16px 0 #02114A, 17px 17px 0 #0B0841, 18px 18px 0 #130039, 19px 19px 0 #1C0930, 20px 20px 0 #251227, 21px 21px 20px rgba(0,0,0,1), 21px 21px 1px rgba(0,0,0,0.5), 0px 0px 20px rgba(0,0,0,.2);
-color: #92a5de;
+    text-shadow: 0 0 0 #899CD5, 1px 1px 0 #8194CD, 2px 2px 0 #788BC4, 3px 3px 0 #6F82BB, 4px 4px 0 #677AB3, 5px 5px 0 #5E71AA, 6px 6px 0 #5568A1, 7px 7px 0 #4C5F98, 8px 8px 0 #445790, 9px 9px 0 #3B4E87, 10px 10px 0 #32457E, 11px 11px 0 #2A3D76, 12px 12px 0 #21346D, 13px 13px 0 #182B64, 14px 14px 0 #0F225B, 15px 15px 0 #071A53, 16px 16px 0 #02114A, 17px 17px 0 #0B0841, 18px 18px 0 #130039, 19px 19px 0 #1C0930, 20px 20px 0 #251227, 21px 21px 20px rgba(0, 0, 0, 1), 21px 21px 1px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #92a5de;
     font-family: 'Faster One', cursive;
     font-family: 'Gruppo', cursive;
     font-family: 'Righteous', cursive;
@@ -20,14 +20,16 @@ input {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
+    -webkit-box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+}
 
 #inputDiv {
     width: 99%;
     position: fixed;
     float: left;
 }
-
 
 #genButton {
     font-family: 'Gruppo', cursive;
@@ -36,58 +38,82 @@ input {
     position: fixed;
 }
 
-
-
 .button6 {
     font-family: 'Gruppo', cursive;
-
-    display:inline-block;
-    padding:0.7em 1.4em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.15em;
+    display: inline-block;
+    padding: 0.7em 1.4em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.15em;
     box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    text-transform:uppercase;
-    font-weight:400;
-    color:#FFFFFF;
-    background-color:#3369ff;
-    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
-    text-align:center;
-    position:relative;
-    }
-    .button6:active {
-    top:0.1em;
-    }
-    @media all and (max-width:30em){
-    .button6{ 
-    display:block;
-    margin:0.4em auto;}
-    }
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #3369ff;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+    text-align: center;
+    position: relative;
+    -webkit-box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+}
 
+.button6:active {
+    top: 0.1em;
+}
+
+@media all and(max-width:30em) {
+    .button6 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+#copyButt {
+    right: 15vw;
+    padding: 0.7em 1.4em;
+    margin: 0 0.3em 0.3em 0;
+    font-family: 'Gruppo', cursive;
+    display: inline-block;
+    border-radius: 0.15em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #30ce72;
+    -webkit-box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    position: absolute;
+}
+
+#copyButt:active {
+    top: 0.1em;
+}
+
+@media all and(max-width:30em) {
     #copyButt {
-        font-family: 'Gruppo', cursive;
-    
-        display:inline-block;
-        padding:0.7em 1.4em;
-        margin:0 0.3em 0.3em 0;
-        border-radius:0.15em;
-        box-sizing: border-box;
-        text-decoration:none;
-        font-family:'Roboto',sans-serif;
-        text-transform:uppercase;
-        font-weight:400;
-        color:#FFFFFF;
-        background-color:#30ce72;
-        box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
-        text-align:center;
-        position:relative;
-        }
-        #copyButt:active {
-        top:0.1em;
-        }
-        @media all and (max-width:30em){
-        #copyButt { 
-        display:block;
-        margin:0.4em auto;}
-        }
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+.footer {
+    font-size: xx-large;
+    height: 3vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: white;
+    text-align: center;
+    -webkit-box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.75);
+}
